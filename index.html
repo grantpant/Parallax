@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Parallax Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="public/particles.min.js"></script>
+    <script src="public/parallax.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Oswald:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <script>
+        window.onload= function() {
+            Particles.init({
+               selector: '.background',
+               connectParticles: true,
+               color: '#00BFFF'
+            });
+        };
+    </script>
+</head>
+<body>
+    <div class="container-fluid beg-cont">
+        <p>SELL YOUR PRODUCTS WITH EASE.<br>WELCOME TO THE FUTURE OF SALES.</p>
+        <p>
+            <a class="btn btn-success btn-lg" href="#" role="button">Sign Up</a>
+        </p>
+    <canvas class="background"></canvas>
+    </div>
+    <div class="container-fluid mid-cont">
+        <h1><b>SELLING IS HARD. WE MAKE IT EASY.</b></h1><br>
+        <p>Ready to get serious about the sale of your products?</p><br>
+        <p>We invite you to our 8 week Sales Bootcamp. You will learn everything you need to know in order to become the world's greatest salesperson.<br>Our course includes live sessions with experts, access to mentors, and a place to network with peers.</p>
+    </div>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/skyline.jpg"></div>
+
+    <div class="container-fluid mid-cont">
+        <h1><b>NOTHING MATTERS MORE THAN THE BOTTOM LINE.</b></h1><br>
+        <hr align="center" width="400px">
+        <div class="icons">
+            <span style="font-size:12rem;"><i class="fas fa-chart-bar"></i></span>
+            <span style="font-size:12rem;"><i class="far fa-credit-card"></i></span>
+            <span style="font-size:12rem;"><i class="fas fa-chart-pie"></i></span>
+        </div>
+        <br>
+        <p>It doesn't matter if you have th greatest products in the world. If you're not selling, your're business is nonexistent.<br>You can't pay your bills with the compliments of your customers. You need their credit cards!</p>
+    </div>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/city_street.jpg"></div>
+
+    <div class="container end-cont">
+        <h1><b>FAQ</b></h1><br>
+        <hr align="center" width="500px">
+        <br>
+
+        <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fas fa-dollar-sign fa-3x"></i></span><p>Who should take this bootcamp?</p>
+            <br>
+            <p>Anyone and everyone! The skills that you gain from our course will not only instill you with the confidence and knowldge that you need to completely dominate your industry, you'll also learn how to live a happier life as well.</p>
+            <br></li>
+            <li><span class="fa-li"><i class="fas fa-dollar-sign fa-3x"></i></span><p>What can I expect to learn from this course?</p>
+            <br>
+            <p>Nothing less than th finest sales tactics. You will become a lean, mean, persuasion machine. We will teach you how to get into the right mindset and see every person as a walking money bag. Everyone has a pice!</p>
+            <br></li>
+            <li><span class="fa-li"><i class="fas fa-dollar-sign fa-3x"></i></span><p>Is there a refund if I am not satisfied after I take the class?</p>
+            <br>
+            <p>You won't need a refund because we know for a fact that you['ll be completely satisfied with our cource. So sign up today!</p>
+            </b></li>
+        </ul> 
+    </div>
+
+</body>
+</html>
