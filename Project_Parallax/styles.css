@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.beg-cont {
+    display: block;
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    font-size: 4em;
+    height: 90%;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    overflow: unset;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: inherit;
+    width: inherit;
+}
+
+.mid-cont {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.parallax-window {
+    width: 100%;
+    height: 300px;
+}
+
+.icons {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.icons span {
+    margin: 0 75px;
+}
+
+.end-cont {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 150px;
+}
+
+.fa-ul li {
+    padding: 0 20%;
+}
+
